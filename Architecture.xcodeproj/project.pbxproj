@@ -8,12 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		A8762B53221631850087C4D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762B52221631850087C4D8 /* AppDelegate.swift */; };
-		A8762B55221631850087C4D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762B54221631850087C4D8 /* ViewController.swift */; };
-		A8762B58221631850087C4D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8762B56221631850087C4D8 /* Main.storyboard */; };
 		A8762B5A221631870087C4D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8762B59221631870087C4D8 /* Assets.xcassets */; };
 		A8762B5D221631870087C4D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8762B5B221631870087C4D8 /* LaunchScreen.storyboard */; };
 		A8762B68221631870087C4D8 /* ArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762B67221631870087C4D8 /* ArchitectureTests.swift */; };
 		A8762B73221631870087C4D8 /* ArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762B72221631870087C4D8 /* ArchitectureUITests.swift */; };
+		A8762B81221631CF0087C4D8 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762B80221631CF0087C4D8 /* AppCoordinator.swift */; };
+		A8762B86221632430087C4D8 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762B85221632430087C4D8 /* DependencyContainer.swift */; };
+		A8762B88221633410087C4D8 /* StoryboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762B87221633410087C4D8 /* StoryboardManager.swift */; };
+		A8762B8A2216338E0087C4D8 /* RemoteNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762B892216338E0087C4D8 /* RemoteNotificationManager.swift */; };
+		A8762B8C221633AE0087C4D8 /* ViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762B8B221633AE0087C4D8 /* ViewManager.swift */; };
+		A8762B8E221633CF0087C4D8 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762B8D221633CF0087C4D8 /* AuthenticationManager.swift */; };
+		A8762B90221633F50087C4D8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762B8F221633F50087C4D8 /* Coordinator.swift */; };
+		A8762B94221634420087C4D8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762B93221634420087C4D8 /* TabBarController.swift */; };
+		A8762B99221634D90087C4D8 /* FirstTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762B98221634D90087C4D8 /* FirstTabCoordinator.swift */; };
+		A8762B9B221635340087C4D8 /* FirstMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762B9A221635340087C4D8 /* FirstMainViewController.swift */; };
+		A8762B9E221635880087C4D8 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762B9D221635880087C4D8 /* Contact.swift */; };
+		A8762BA0221635CE0087C4D8 /* SecondTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762B9F221635CE0087C4D8 /* SecondTabCoordinator.swift */; };
+		A8762BA2221636040087C4D8 /* SecondMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762BA1221636040087C4D8 /* SecondMainViewController.swift */; };
+		A8762BA5221636430087C4D8 /* ThirdTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762BA4221636430087C4D8 /* ThirdTabCoordinator.swift */; };
+		A8762BA7221636660087C4D8 /* ThirdMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762BA6221636660087C4D8 /* ThirdMainViewController.swift */; };
+		A8762BA9221636A70087C4D8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762BA8221636A70087C4D8 /* User.swift */; };
+		A8762BAB221636C00087C4D8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762BAA221636C00087C4D8 /* Message.swift */; };
+		A8762BAE221637C20087C4D8 /* UIView+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762BAD221637C20087C4D8 /* UIView+Extras.swift */; };
+		A8762BB0221638970087C4D8 /* MessagesFlowFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762BAF221638970087C4D8 /* MessagesFlowFactory.swift */; };
+		A8762BB2221638D50087C4D8 /* MessageBoundFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762BB1221638D50087C4D8 /* MessageBoundFactory.swift */; };
+		A8762BB4221638FF0087C4D8 /* MessageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762BB3221638FF0087C4D8 /* MessageListViewController.swift */; };
+		A8762BB622163BB20087C4D8 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762BB522163BB10087C4D8 /* ContactCell.swift */; };
+		A8762BB8221671E80087C4D8 /* FirstMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762BB7221671E80087C4D8 /* FirstMainView.swift */; };
+		A8762BBA221675D40087C4D8 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762BB9221675D40087C4D8 /* ContactDetailViewController.swift */; };
+		A8762BBE221676F40087C4D8 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762BBD221676F40087C4D8 /* ContactDetailView.swift */; };
+		A8762BC022167A6F0087C4D8 /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = A8762BBF22167A6F0087C4D8 /* ReadMe.md */; };
+		A8762C0A221681750087C4D8 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762C09221681750087C4D8 /* APIManager.swift */; };
+		A8762C0C221681A90087C4D8 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762C0B221681A90087C4D8 /* BaseRouter.swift */; };
+		A8762C0E2216831B0087C4D8 /* MessageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762C0D2216831B0087C4D8 /* MessageDetailViewController.swift */; };
+		A8762C10221683430087C4D8 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762C0F221683430087C4D8 /* MessageViewController.swift */; };
+		A8762C12221684AC0087C4D8 /* ThirdMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762C11221684AC0087C4D8 /* ThirdMainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +65,6 @@
 /* Begin PBXFileReference section */
 		A8762B4F221631850087C4D8 /* Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Architecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8762B52221631850087C4D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8762B54221631850087C4D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A8762B57221631850087C4D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8762B59221631870087C4D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8762B5C221631870087C4D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8762B5E221631870087C4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +74,37 @@
 		A8762B6E221631870087C4D8 /* ArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8762B72221631870087C4D8 /* ArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureUITests.swift; sourceTree = "<group>"; };
 		A8762B74221631870087C4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8762B80221631CF0087C4D8 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		A8762B85221632430087C4D8 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		A8762B87221633410087C4D8 /* StoryboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardManager.swift; sourceTree = "<group>"; };
+		A8762B892216338E0087C4D8 /* RemoteNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteNotificationManager.swift; sourceTree = "<group>"; };
+		A8762B8B221633AE0087C4D8 /* ViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewManager.swift; sourceTree = "<group>"; };
+		A8762B8D221633CF0087C4D8 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		A8762B8F221633F50087C4D8 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A8762B93221634420087C4D8 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A8762B98221634D90087C4D8 /* FirstTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabCoordinator.swift; sourceTree = "<group>"; };
+		A8762B9A221635340087C4D8 /* FirstMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMainViewController.swift; sourceTree = "<group>"; };
+		A8762B9D221635880087C4D8 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		A8762B9F221635CE0087C4D8 /* SecondTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabCoordinator.swift; sourceTree = "<group>"; };
+		A8762BA1221636040087C4D8 /* SecondMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMainViewController.swift; sourceTree = "<group>"; };
+		A8762BA4221636430087C4D8 /* ThirdTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabCoordinator.swift; sourceTree = "<group>"; };
+		A8762BA6221636660087C4D8 /* ThirdMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdMainViewController.swift; sourceTree = "<group>"; };
+		A8762BA8221636A70087C4D8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A8762BAA221636C00087C4D8 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		A8762BAD221637C20087C4D8 /* UIView+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extras.swift"; sourceTree = "<group>"; };
+		A8762BAF221638970087C4D8 /* MessagesFlowFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesFlowFactory.swift; sourceTree = "<group>"; };
+		A8762BB1221638D50087C4D8 /* MessageBoundFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBoundFactory.swift; sourceTree = "<group>"; };
+		A8762BB3221638FF0087C4D8 /* MessageListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewController.swift; sourceTree = "<group>"; };
+		A8762BB522163BB10087C4D8 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		A8762BB7221671E80087C4D8 /* FirstMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMainView.swift; sourceTree = "<group>"; };
+		A8762BB9221675D40087C4D8 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		A8762BBD221676F40087C4D8 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		A8762BBF22167A6F0087C4D8 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		A8762C09221681750087C4D8 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		A8762C0B221681A90087C4D8 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		A8762C0D2216831B0087C4D8 /* MessageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailViewController.swift; sourceTree = "<group>"; };
+		A8762C0F221683430087C4D8 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		A8762C11221684AC0087C4D8 /* ThirdMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdMainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +155,12 @@
 		A8762B51221631850087C4D8 /* Architecture */ = {
 			isa = PBXGroup;
 			children = (
-				A8762B52221631850087C4D8 /* AppDelegate.swift */,
-				A8762B54221631850087C4D8 /* ViewController.swift */,
-				A8762B56221631850087C4D8 /* Main.storyboard */,
-				A8762B59221631870087C4D8 /* Assets.xcassets */,
-				A8762B5B221631870087C4D8 /* LaunchScreen.storyboard */,
+				A8762BBF22167A6F0087C4D8 /* ReadMe.md */,
 				A8762B5E221631870087C4D8 /* Info.plist */,
+				A8762B82221631E80087C4D8 /* Application */,
+				A8762B91221634130087C4D8 /* ViewControllers */,
+				A8762B9C221635760087C4D8 /* Models */,
+				A8762BC122167D900087C4D8 /* Resources */,
 			);
 			path = Architecture;
 			sourceTree = "<group>";
@@ -123,6 +181,171 @@
 				A8762B74221631870087C4D8 /* Info.plist */,
 			);
 			path = ArchitectureUITests;
+			sourceTree = "<group>";
+		};
+		A8762B82221631E80087C4D8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A8762B52221631850087C4D8 /* AppDelegate.swift */,
+				A8762B80221631CF0087C4D8 /* AppCoordinator.swift */,
+				A8762B83221632010087C4D8 /* Managers */,
+				A8762B842216320D0087C4D8 /* Common */,
+				A8762BAC221637AB0087C4D8 /* Extensions */,
+				A8762BC2221681190087C4D8 /* Networking  */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A8762B83221632010087C4D8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A8762B85221632430087C4D8 /* DependencyContainer.swift */,
+				A8762B87221633410087C4D8 /* StoryboardManager.swift */,
+				A8762B892216338E0087C4D8 /* RemoteNotificationManager.swift */,
+				A8762B8B221633AE0087C4D8 /* ViewManager.swift */,
+				A8762B8D221633CF0087C4D8 /* AuthenticationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A8762B842216320D0087C4D8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A8762B8F221633F50087C4D8 /* Coordinator.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A8762B91221634130087C4D8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A8762B92221634350087C4D8 /* TabBarController */,
+				A8762B95221634590087C4D8 /* 1st Tab */,
+				A8762B96221634600087C4D8 /* 2nd Tab */,
+				A8762B97221634650087C4D8 /* 3rd Tab */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A8762B92221634350087C4D8 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				A8762B93221634420087C4D8 /* TabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		A8762B95221634590087C4D8 /* 1st Tab */ = {
+			isa = PBXGroup;
+			children = (
+				A8762B98221634D90087C4D8 /* FirstTabCoordinator.swift */,
+				A8762BBB221676950087C4D8 /* Main */,
+				A8762BBC2216769A0087C4D8 /* Contact Detail  */,
+			);
+			path = "1st Tab";
+			sourceTree = "<group>";
+		};
+		A8762B96221634600087C4D8 /* 2nd Tab */ = {
+			isa = PBXGroup;
+			children = (
+				A8762B9F221635CE0087C4D8 /* SecondTabCoordinator.swift */,
+				A8762BA1221636040087C4D8 /* SecondMainViewController.swift */,
+			);
+			path = "2nd Tab";
+			sourceTree = "<group>";
+		};
+		A8762B97221634650087C4D8 /* 3rd Tab */ = {
+			isa = PBXGroup;
+			children = (
+				A8762BA4221636430087C4D8 /* ThirdTabCoordinator.swift */,
+				A8762BAF221638970087C4D8 /* MessagesFlowFactory.swift */,
+				A8762BB1221638D50087C4D8 /* MessageBoundFactory.swift */,
+				A8762BA32216362C0087C4D8 /* Main */,
+				A8762C132216860C0087C4D8 /* Messages */,
+				A8762C142216861B0087C4D8 /* Messages Detail  */,
+			);
+			path = "3rd Tab";
+			sourceTree = "<group>";
+		};
+		A8762B9C221635760087C4D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8762B9D221635880087C4D8 /* Contact.swift */,
+				A8762BA8221636A70087C4D8 /* User.swift */,
+				A8762BAA221636C00087C4D8 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8762BA32216362C0087C4D8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A8762BA6221636660087C4D8 /* ThirdMainViewController.swift */,
+				A8762C11221684AC0087C4D8 /* ThirdMainView.swift */,
+				A8762BB3221638FF0087C4D8 /* MessageListViewController.swift */,
+				A8762C0D2216831B0087C4D8 /* MessageDetailViewController.swift */,
+				A8762C0F221683430087C4D8 /* MessageViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A8762BAC221637AB0087C4D8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A8762BAD221637C20087C4D8 /* UIView+Extras.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A8762BBB221676950087C4D8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A8762B9A221635340087C4D8 /* FirstMainViewController.swift */,
+				A8762BB7221671E80087C4D8 /* FirstMainView.swift */,
+				A8762BB522163BB10087C4D8 /* ContactCell.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A8762BBC2216769A0087C4D8 /* Contact Detail  */ = {
+			isa = PBXGroup;
+			children = (
+				A8762BB9221675D40087C4D8 /* ContactDetailViewController.swift */,
+				A8762BBD221676F40087C4D8 /* ContactDetailView.swift */,
+			);
+			path = "Contact Detail ";
+			sourceTree = "<group>";
+		};
+		A8762BC122167D900087C4D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A8762B59221631870087C4D8 /* Assets.xcassets */,
+				A8762B5B221631870087C4D8 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A8762BC2221681190087C4D8 /* Networking  */ = {
+			isa = PBXGroup;
+			children = (
+				A8762C09221681750087C4D8 /* APIManager.swift */,
+				A8762C0B221681A90087C4D8 /* BaseRouter.swift */,
+			);
+			path = "Networking ";
+			sourceTree = "<group>";
+		};
+		A8762C132216860C0087C4D8 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		A8762C142216861B0087C4D8 /* Messages Detail  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Messages Detail ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +454,7 @@
 			files = (
 				A8762B5D221631870087C4D8 /* LaunchScreen.storyboard in Resources */,
 				A8762B5A221631870087C4D8 /* Assets.xcassets in Resources */,
-				A8762B58221631850087C4D8 /* Main.storyboard in Resources */,
+				A8762BC022167A6F0087C4D8 /* ReadMe.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +479,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8762B55221631850087C4D8 /* ViewController.swift in Sources */,
+				A8762BB622163BB20087C4D8 /* ContactCell.swift in Sources */,
+				A8762B9E221635880087C4D8 /* Contact.swift in Sources */,
+				A8762B8A2216338E0087C4D8 /* RemoteNotificationManager.swift in Sources */,
+				A8762C0A221681750087C4D8 /* APIManager.swift in Sources */,
+				A8762C10221683430087C4D8 /* MessageViewController.swift in Sources */,
+				A8762B8E221633CF0087C4D8 /* AuthenticationManager.swift in Sources */,
+				A8762BA9221636A70087C4D8 /* User.swift in Sources */,
+				A8762B81221631CF0087C4D8 /* AppCoordinator.swift in Sources */,
+				A8762BBE221676F40087C4D8 /* ContactDetailView.swift in Sources */,
+				A8762BAE221637C20087C4D8 /* UIView+Extras.swift in Sources */,
+				A8762BA2221636040087C4D8 /* SecondMainViewController.swift in Sources */,
+				A8762BBA221675D40087C4D8 /* ContactDetailViewController.swift in Sources */,
+				A8762B94221634420087C4D8 /* TabBarController.swift in Sources */,
+				A8762B9B221635340087C4D8 /* FirstMainViewController.swift in Sources */,
+				A8762C12221684AC0087C4D8 /* ThirdMainView.swift in Sources */,
+				A8762B86221632430087C4D8 /* DependencyContainer.swift in Sources */,
 				A8762B53221631850087C4D8 /* AppDelegate.swift in Sources */,
+				A8762BA5221636430087C4D8 /* ThirdTabCoordinator.swift in Sources */,
+				A8762BB2221638D50087C4D8 /* MessageBoundFactory.swift in Sources */,
+				A8762BA7221636660087C4D8 /* ThirdMainViewController.swift in Sources */,
+				A8762BB0221638970087C4D8 /* MessagesFlowFactory.swift in Sources */,
+				A8762B99221634D90087C4D8 /* FirstTabCoordinator.swift in Sources */,
+				A8762BB4221638FF0087C4D8 /* MessageListViewController.swift in Sources */,
+				A8762BB8221671E80087C4D8 /* FirstMainView.swift in Sources */,
+				A8762BA0221635CE0087C4D8 /* SecondTabCoordinator.swift in Sources */,
+				A8762C0C221681A90087C4D8 /* BaseRouter.swift in Sources */,
+				A8762B8C221633AE0087C4D8 /* ViewManager.swift in Sources */,
+				A8762C0E2216831B0087C4D8 /* MessageDetailViewController.swift in Sources */,
+				A8762B88221633410087C4D8 /* StoryboardManager.swift in Sources */,
+				A8762B90221633F50087C4D8 /* Coordinator.swift in Sources */,
+				A8762BAB221636C00087C4D8 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +545,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A8762B56221631850087C4D8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8762B57221631850087C4D8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A8762B5B221631870087C4D8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,7 +683,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.architecture.jake.Architecture;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.architecture.jake.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,7 +701,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.architecture.jake.Architecture;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.architecture.jake.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
