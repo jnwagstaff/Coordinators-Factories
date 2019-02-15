@@ -8,12 +8,14 @@
 
 import UIKit
 
+/// Class with multiple dependencies only needs to take in one factory
 class MessageListViewController: UIViewController {
     
-    typealias Factory = MessageLoaderFactory & ViewControllerFactoryProtocol
+    typealias Factory = MessageLoaderFactory & ViewControllerFactoryProtocol & NetworkBoundFactoryProtocol
     private let factory: Factory
     
-    private lazy var loader = factory.makeMessageLoader() // makes loader with it's dependencies that we don't know it has!
+    private lazy var networkManager = factory.makeNetworkManager()
+    private lazy var loader = factory.makeMessageLoader() // makes loader with it's dependencies that we don't know it has or needs
     
     var baseView = MessageListView()
     

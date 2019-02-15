@@ -62,9 +62,3 @@ extension ViewManager {
         
     }
 }
-
-// MARK: Tab Bar Crap
-
-extension ViewManager {
-    
-}

@@ -24,8 +24,6 @@ class MessageDetailViewController: UIViewController {
     }
 }
 
-
-
 class MessageSender: NSObject {
     init(networkManager: NetworkManager) {
         
