@@ -65,7 +65,7 @@ protocol ViewControllerFactoryProtocol {
     
     // Messages Example Section (Third Tab) 
     func makeMessageListViewController(with messages: [Message]) -> MessageListViewController
-    func makeMessageViewController(for message: Message) -> MessageViewController
+    func makeMessageViewController(for message: Message) -> MessageDetailViewController
 }
 
 extension DependencyContainer: ViewControllerFactoryProtocol {
@@ -115,8 +115,8 @@ extension DependencyContainer: ViewControllerFactoryProtocol {
         return MessageListViewController(factory: self, messages: messages)
     }
 
-    func makeMessageViewController(for message: Message) -> MessageViewController {
-        return MessageViewController(message: message, sender: messageSender)
+    func makeMessageViewController(for message: Message) -> MessageDetailViewController {
+        return MessageDetailViewController(message: message)
     }
 }
 

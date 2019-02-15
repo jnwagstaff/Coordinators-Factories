@@ -41,8 +41,9 @@
 		A8762C0A221681750087C4D8 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762C09221681750087C4D8 /* APIManager.swift */; };
 		A8762C0C221681A90087C4D8 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762C0B221681A90087C4D8 /* BaseRouter.swift */; };
 		A8762C0E2216831B0087C4D8 /* MessageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762C0D2216831B0087C4D8 /* MessageDetailViewController.swift */; };
-		A8762C10221683430087C4D8 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762C0F221683430087C4D8 /* MessageViewController.swift */; };
 		A8762C12221684AC0087C4D8 /* ThirdMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762C11221684AC0087C4D8 /* ThirdMainView.swift */; };
+		A8762C16221689590087C4D8 /* MessageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762C15221689590087C4D8 /* MessageLoader.swift */; };
+		A8762C1822168A0D0087C4D8 /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8762C1722168A0D0087C4D8 /* MessageListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,8 +104,9 @@
 		A8762C09221681750087C4D8 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		A8762C0B221681A90087C4D8 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
 		A8762C0D2216831B0087C4D8 /* MessageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailViewController.swift; sourceTree = "<group>"; };
-		A8762C0F221683430087C4D8 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		A8762C11221684AC0087C4D8 /* ThirdMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdMainView.swift; sourceTree = "<group>"; };
+		A8762C15221689590087C4D8 /* MessageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageLoader.swift; sourceTree = "<group>"; };
+		A8762C1722168A0D0087C4D8 /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,7 +263,7 @@
 				A8762BAF221638970087C4D8 /* MessagesFlowFactory.swift */,
 				A8762BB1221638D50087C4D8 /* MessageBoundFactory.swift */,
 				A8762BA32216362C0087C4D8 /* Main */,
-				A8762C132216860C0087C4D8 /* Messages */,
+				A8762C132216860C0087C4D8 /* Message List */,
 				A8762C142216861B0087C4D8 /* Messages Detail  */,
 			);
 			path = "3rd Tab";
@@ -282,9 +284,6 @@
 			children = (
 				A8762BA6221636660087C4D8 /* ThirdMainViewController.swift */,
 				A8762C11221684AC0087C4D8 /* ThirdMainView.swift */,
-				A8762BB3221638FF0087C4D8 /* MessageListViewController.swift */,
-				A8762C0D2216831B0087C4D8 /* MessageDetailViewController.swift */,
-				A8762C0F221683430087C4D8 /* MessageViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -334,16 +333,20 @@
 			path = "Networking ";
 			sourceTree = "<group>";
 		};
-		A8762C132216860C0087C4D8 /* Messages */ = {
+		A8762C132216860C0087C4D8 /* Message List */ = {
 			isa = PBXGroup;
 			children = (
+				A8762BB3221638FF0087C4D8 /* MessageListViewController.swift */,
+				A8762C1722168A0D0087C4D8 /* MessageListView.swift */,
+				A8762C15221689590087C4D8 /* MessageLoader.swift */,
 			);
-			path = Messages;
+			path = "Message List";
 			sourceTree = "<group>";
 		};
 		A8762C142216861B0087C4D8 /* Messages Detail  */ = {
 			isa = PBXGroup;
 			children = (
+				A8762C0D2216831B0087C4D8 /* MessageDetailViewController.swift */,
 			);
 			path = "Messages Detail ";
 			sourceTree = "<group>";
@@ -483,7 +486,6 @@
 				A8762B9E221635880087C4D8 /* Contact.swift in Sources */,
 				A8762B8A2216338E0087C4D8 /* RemoteNotificationManager.swift in Sources */,
 				A8762C0A221681750087C4D8 /* APIManager.swift in Sources */,
-				A8762C10221683430087C4D8 /* MessageViewController.swift in Sources */,
 				A8762B8E221633CF0087C4D8 /* AuthenticationManager.swift in Sources */,
 				A8762BA9221636A70087C4D8 /* User.swift in Sources */,
 				A8762B81221631CF0087C4D8 /* AppCoordinator.swift in Sources */,
@@ -492,6 +494,7 @@
 				A8762BA2221636040087C4D8 /* SecondMainViewController.swift in Sources */,
 				A8762BBA221675D40087C4D8 /* ContactDetailViewController.swift in Sources */,
 				A8762B94221634420087C4D8 /* TabBarController.swift in Sources */,
+				A8762C1822168A0D0087C4D8 /* MessageListView.swift in Sources */,
 				A8762B9B221635340087C4D8 /* FirstMainViewController.swift in Sources */,
 				A8762C12221684AC0087C4D8 /* ThirdMainView.swift in Sources */,
 				A8762B86221632430087C4D8 /* DependencyContainer.swift in Sources */,
@@ -502,6 +505,7 @@
 				A8762BB0221638970087C4D8 /* MessagesFlowFactory.swift in Sources */,
 				A8762B99221634D90087C4D8 /* FirstTabCoordinator.swift in Sources */,
 				A8762BB4221638FF0087C4D8 /* MessageListViewController.swift in Sources */,
+				A8762C16221689590087C4D8 /* MessageLoader.swift in Sources */,
 				A8762BB8221671E80087C4D8 /* FirstMainView.swift in Sources */,
 				A8762BA0221635CE0087C4D8 /* SecondTabCoordinator.swift in Sources */,
 				A8762C0C221681A90087C4D8 /* BaseRouter.swift in Sources */,

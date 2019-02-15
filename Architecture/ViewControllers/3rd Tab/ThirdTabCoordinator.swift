@@ -9,6 +9,11 @@
 import Foundation
 import UIKit
 
+enum ThirdTabModel {
+    case messages(messages: [Message])
+    case messageDetail(message: Message)
+}
+
 class ThirdTabCoordinator: NavCoordinator {
     
     // MARK: - Properties
@@ -41,13 +46,21 @@ class ThirdTabCoordinator: NavCoordinator {
 
 // MARK: - Navigation
 extension ThirdTabCoordinator {
-    private func presentDetail() {
+    private func presentMessageList(with messages: [Message]) {
+        let messageListViewController = factory.makeMessageListViewController(with: messages)
+        push(vc: messageListViewController)
+    }
+    
+    private func presentDetail(with message: Message) {
         
     }
 }
 
 extension ThirdTabCoordinator: ThirdMainViewControllerDelegate {
-    func didSelectModel() {
-        
+    func didSelectModel(model: ThirdTabModel) {
+        switch model {
+        case .messages(let messages): presentMessageList(with: messages)
+        case .messageDetail(let message): presentDetail(with: message)
+        }
     }
 }

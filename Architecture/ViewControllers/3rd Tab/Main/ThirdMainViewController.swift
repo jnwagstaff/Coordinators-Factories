@@ -9,16 +9,14 @@
 import Foundation
 import UIKit
 
-
-
 protocol ThirdMainViewControllerDelegate: class {
-    func didSelectModel()
+    func didSelectModel(model: ThirdTabModel)
 }
 
 class ThirdMainViewController: UIViewController {
     
     typealias Factory = ViewControllerFactoryProtocol & NetworkBoundFactoryProtocol
-    private var factory: Factory?
+    private var factory: Factory
     
     var baseView = ThirdMainView()
     
@@ -40,10 +38,8 @@ class ThirdMainViewController: UIViewController {
     }
     
     @objc func refresh() {
-        self.factory?.makeNetworkManager().fetchMessages(handler: { (messages) in
-            guard let factory = factory else { return }
-            let messageListViewController = factory.makeMessageListViewController(with: messages)
-            navigationController?.pushViewController(messageListViewController, animated: true)
+        self.factory.makeNetworkManager().fetchMessages(handler: { (messages) in
+            delegate?.didSelectModel(model: .messages(messages: messages))
         })
     }
     
